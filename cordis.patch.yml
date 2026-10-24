@@ -1,0 +1,6 @@
+# dsh-cyber-red-load bundle patch: inserts this package's row into the web
+# plugin roster, next to dsh-cyber-red-ui. The host half is a no-op marker; all
+# behavior lives in the client export (lib/client.js).
+- insert:
+    - id: dsh-cyber-red-load
+      name: 'dsh-cyber-red-load'
